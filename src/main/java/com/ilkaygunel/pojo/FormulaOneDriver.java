@@ -1,33 +1,13 @@
 package com.ilkaygunel.pojo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
 public class FormulaOneDriver {
-
-	public FormulaOneDriver() {
-
-	}
-
-	public FormulaOneDriver(String name, String surname) {
-		this.name = name;
-		this.surname = surname;
-	}
 
 	private String name;
 	private String surname;
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getSurname() {
-		return surname;
-	}
-
-	public void setSurname(String surname) {
-		this.surname = surname;
-	}
 
 }
